@@ -17,10 +17,12 @@ If you plan on using this in your environmnet, you need to follow these steps:
 1. Install terraform using these steps [here](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 2. Clone this repository if you haven't already
 3. Configure your AWS user by running ```aws configure``` in CLI
-4. Follow the Terraform workflow: ```terraform init```, ```terraform plan```, ```terraform apply``` 
+4. Follow the Terraform workflow: ```terraform init```, ```terraform validate```, ```terraform plan```, ```terraform apply``` 
 
 
 ## Credit
 1. [Terraform documentation](https://www.terraform.io/docs)
 
 ## License
+
+[MIT License](https://github.com/Tobiajet/Cloud-Challenge/blob/main/LICENSE)
