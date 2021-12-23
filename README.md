@@ -5,6 +5,11 @@
 
 <img src="./Diagram.jpg">
 
+## Features
+1. VPC and subnets
+2. Security groups
+3. Load balancer
+4. EC2 running Apache
 
 ## What is this?
 A minimalistic production-ready environmnet in Terraform for running a rudimentary web-application that returns a "Hello Graylog!" string upon a GET https request.
@@ -18,6 +23,7 @@ If you plan on using this in your environmnet, you need to follow these steps:
 2. Clone this repository if you haven't already
 3. Configure your AWS user by running ```aws configure``` in CLI
 4. Follow the Terraform workflow: ```terraform init```, ```terraform validate```, ```terraform plan```, ```terraform apply``` 
+5. Copy and paste public IP address of EC2 instance in web browser
 
 
 ## Credit
